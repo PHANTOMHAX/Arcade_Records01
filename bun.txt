@@ -1,0 +1,11 @@
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+
+font-family: 'Inter', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+
+font-family: 'Inter', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Roboto Mono', monospace;

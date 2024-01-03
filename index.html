@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ARCADE Records</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="Home">
+      <div class="Home_container">
+        <video autoplay loop muted plays-inline class="bg_vid">
+          <source src="/resources/vid.mp4" type="video/mp4" />
+        </video>
+        <nav>
+          <span><a href="#"> ARCADE RECORDS</a></span>
+          <ul>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">SIGN-UP</a></li>
+          </ul>
+        </nav>
+
+        <div class="main_con">
+          <h1>ARCADE <span>RECORDS</span></h1>
+          <span class="home_con">
+            ARCADE Records: Premier music distribution from India. We connect
+            talented artists with global audiences through Spotify, Apple Music,
+            and more. Empowering creativity and global reach. Welcome to
+            ARCADE, where Indian music resonates worldwide..
+          </span>
+          <a href="#">GET STARTED</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="abt_container">
+        <h1 id="head_na">ABOUT</h1>
+        <div class="abt_txt">
+          With our music distribution service you can make your tracks available
+          on all major platforms including spotify,apple music,Youtube and many
+          more all for one time setup free wherever your fans prever to listen
+          to they'll find you
+        </div>
+        <div class="abt_grid">
+          <div class="card" id="card1">
+            <i class="fa-solid fa-desktop"></i>
+            <h6>Get Online</h6>
+            <span
+              >Take your art to the digital world! Bring your talent online to
+              reach a larger audience, connect with fans, and showcase your work
+              in a visually stunning and accessible way..</span
+            >
+          </div>
+          <div class="card" id="card2">
+            <i class="fa-solid fa-pen-to-square"></i>
+            <h6>Register Yourself</h6>
+            <span
+              >Elevate your music career with ARCADE's profile tools! Create a
+              professional and captivating profile, showcase your music and
+              connect with fans and industry professionals to grow your network
+              and reach.</span
+            >
+          </div>
+          <div class="card" id="card3">
+            <i class="fa-sharp fa-solid fa-light fa-table-columns"></i>
+            <h6>Upload Content</h6>
+            <span
+              >Maximize your music's potential with ARCADE Records! Upload
+              your content and gain access to extra benefits such as promotional
+              tools, revenue sharing opportunities, and valuable insights to
+              help you grow your career.</span
+            >
+          </div>
+          <div class="card" id="card4">
+            <i class="fa-regular fa-solid fa-globe"></i>
+            <h6>Available globally</h6>
+            <span
+              >Expand your reach and make your music available globally with
+              ARCADE Records! Our distribution services will get your content
+              in front of new fans across multiple platforms and
+              territories..</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Card_Section">
+      <h1 id="head_na" class="nana">MUSIC</h1>
+      <p id="card_parah">This is what we create!!!</p>
+      <div id="card_sec">
+        <div class="mus_card">
+          <div class="img-holder">
+            <img id="card_img" src="/Mus/01_new.jpeg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Moye Moye</h2>
+            <p>Feel good everytime</p>
+          </div>
+          <div class="play-icon" onclick="togglePlayPause(event, 0)">
+            <div class="circle">
+              <div class="triangle"></div>
+              <div class="pause hidden"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mus_card">
+          <div class="img-holder">
+            <img id="card_img" src="/Mus/02.jpeg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Teri Choodiyan</h2>
+            <p>Soul in peace</p>
+          </div>
+          <div class="play-icon" onclick="togglePlayPause(event, 1)">
+            <div class="circle">
+              <div class="triangle"></div>
+              <div class="pause hidden"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mus_card">
+          <div class="img-holder">
+            <img id="card_img" src="/Mus/03.jpeg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Inki Pinki</h2>
+            <p>Chase em'</p>
+          </div>
+          <div class="play-icon" onclick="togglePlayPause(event, 2)">
+            <div class="circle">
+              <div class="triangle"></div>
+              <div class="pause hidden"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mus_card">
+          <div class="img-holder">
+            <img id="card_img" src="/Mus/04.jpeg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Micola</h2>
+            <p>The white sky</p>
+          </div>
+          <div class="play-icon" onclick="togglePlayPause(event, 3)">
+            <div class="circle">
+              <div class="triangle"></div>
+              <div class="pause hidden"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mus_card">
+          <div class="img-holder">
+            <img id="card_img" src="/Mus/05.jpeg" alt="" />
+          </div>
+          <div class="text">
+            <h2>Im very good bad boy</h2>
+            <p>Memories</p>
+          </div>
+          <div class="play-icon" onclick="togglePlayPause(event, 4)">
+            <div class="circle">
+              <div class="triangle"></div>
+              <div class="pause hidden"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+        <h1 id="head_na">ABOUT</h1>
+      <div class="about_container">
+        <img src="/resources/abt_01.jpg" alt="" />
+
+        <p class="about_para">
+          Welcome to ARCADE Records, where musical dreams take flight and
+          melodies find their eternal home. Nestled at the intersection of
+          passion and creativity, ARCADE Records is more than just a record
+          house—it's a sanctuary for artists and a haven for music lovers. Our
+          journey began with a simple yet profound belief: that music has the
+          power to transcend boundaries, evoke emotions, and shape cultures. At
+          ARCADE Records, we strive to be the bridge between raw talent and a
+          world hungry for authentic, soul-stirring soundscapes. As curators of
+          sonic excellence, we take pride in nurturing artists from diverse
+          genres, offering them a platform to amplify their voices and share
+          their stories. From the pulsating beats of electronic dance music to
+          the heartfelt ballads of indie folk, ARCADE Records embraces the
+          richness of musical diversity. Step into our world, where every note
+          is a brushstroke on the canvas of creativity. Our dedicated team of
+          professionals, fueled by a shared love for music, is committed to
+          providing unparalleled support to our artists. We believe in fostering
+          an environment where innovation flourishes, and each artist is
+          encouraged to explore the depths of their artistic potential. As you
+          explore the musical landscapes within our catalog, you'll discover a
+          tapestry of sounds that reflects the vibrant mosaic of human
+          expression. From breakthrough singles to timeless albums, ARCADE
+          Records is a testament to the enduring power of music to shape
+          memories, define moments, and unite souls. Join us on this
+          exhilarating journey through the world of sound—a journey where
+          artists find their wings, and listeners discover their next sonic
+          obsession. ARCADE Records is not just a record house; it's a
+          celebration of the universal language that connects us all—music.
+          Welcome to ARCADE. Where every note is an invitation to experience
+          the extraordinary.
+        </p>
+      </div>
+    </section>
+
+    <footer>
+        <h1 class="foot_head">ARCADE <span>RECORDS</span></h1>
+        <div class="copyright">
+            copyright © www.arcaderecords.com. All rights reserved
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
